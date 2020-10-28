@@ -15,6 +15,7 @@ export default function Home() {
         </h1>
 
         <a href="./about">Go to about page.</a>
+        <a href="./clock">Go to clock page.</a>
 
         <p className={styles.description}>
           Get started by editing <code className={styles.code}>pages/index.js</code>
