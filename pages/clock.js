@@ -23,8 +23,13 @@ class Clock extends React.Component {
   render() {
     return (
       <>
+        <Head>
+          <title>Clock Page</title>
+          <link rel="icon" href="/favicon.ico" />
+        </Head>
+
         <h1 className={styles.title}>What time is it?</h1>
-        <h1 className={styles.title}>It is {this.state.date.toLocaleTimeString()}</h1>
+        <h2 className={styles.title}>It is {this.state.date.toLocaleTimeString()}</h2>
       </>
     );
   }
